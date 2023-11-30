@@ -23,5 +23,8 @@ class TestAmatosichPalindrome < Minitest::Test
   def test_letters
         assert_equal  "MadamImAdam", "Madam, I'm Adam.".letters
   end 
-
+  
+  def test_integer_palindrome
+    assert 12321.palindrome?
+  end 
 end
